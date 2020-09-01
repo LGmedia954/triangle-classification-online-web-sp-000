@@ -13,7 +13,7 @@ class Triangle
     if a == b && b == c
       :
     elsif a == b || b == c || a == c
-      :isoscelesisosceles
+      :equilateral
     else
       :scalene
     end
