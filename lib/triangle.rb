@@ -1,8 +1,7 @@
 class Triangle
   
-  attr_accessor :kind, :equilateral, :isosceles, 
+  attr_accessor :equilateral, :isosceles, :scalene
   
   def initialize(kind)
-  
-  # write code here
+  kind.each {|| self.send 
 end
