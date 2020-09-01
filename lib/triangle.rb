@@ -11,7 +11,7 @@ class Triangle
   def kind
     validate_triangle
     if a == b && b == c
-      :
+      :isosceles
     elsif a == b || b == c || a == c
       :equilateral
     else
